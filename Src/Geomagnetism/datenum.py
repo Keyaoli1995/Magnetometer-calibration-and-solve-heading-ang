@@ -11,7 +11,6 @@ def datenum(date):
     if not input ss, default ss is 0
     if not input mm, default dd is 0
     if not input HH, default HH is 0"""
-    print("Now, processing date_str to date_num")
     date_list = date.split('-')
     element2append = 6 - len(date_list)
     len_orig = len(date_list)
